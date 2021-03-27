@@ -47,12 +47,6 @@ namespace WebApi
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1"));
             }
 
-            //var serviceScopeFactory = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>();
-            //using (var serviceScope = serviceScopeFactory.CreateScope())
-            //{
-            //    var dbContext = serviceScope.ServiceProvider.GetService<Context>();
-            //    dbContext.Database.EnsureCreated();
-            //}
 
             app.UseHttpsRedirection();
 
