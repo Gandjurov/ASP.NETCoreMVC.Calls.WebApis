@@ -16,7 +16,7 @@ namespace WebApi.Controllers
             this.context = context;
         }
 
-        // Get all students
+        // Get All Students
         [HttpGet]
         public List<Student> Get()
         {
